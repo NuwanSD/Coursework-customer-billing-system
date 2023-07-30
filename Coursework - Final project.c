@@ -62,7 +62,7 @@ void customerData()
                 printf("\nNo of items: ");
                 scanf("%d",&Q1);
                 if(data[2].qty > Q1){
-                    data[2].qty--;
+                    data[2].qty -= Q1;
                     B1 = 150 * Q1;
                 }else{
                     printf("\nCannot do this!!\n");
@@ -73,7 +73,7 @@ void customerData()
                 printf("\nNo of items: ");
                 scanf("%d",&Q2);
                 if(data[1].qty > Q2){
-                    data[1].qty--;
+                    data[1].qty -= Q2;
                     B2 = 80 * Q2;
                 }else{
                     printf("\nCannot do this!!\n");
@@ -84,7 +84,7 @@ void customerData()
                 printf("\nNo of items: ");
                 scanf("%d",&Q3);
                 if(data[0].qty > Q3){
-                    data[0].qty--;
+                    data[0].qty -= Q3;
                     B3 = 80 * Q3;
                 }else{
                     printf("\nCannot do this!!\n");
@@ -95,7 +95,7 @@ void customerData()
                 printf("\nNo of items: ");
                 scanf("%d",&Q4);
                 if(data[3].qty > Q4){
-                    data[3].qty--;
+                    data[3].qty -= Q4;
                     B4 = 100 * Q4;
                 }else{
                     printf("\nCannot do this!!\n");
@@ -106,7 +106,7 @@ void customerData()
                 printf("\nNo of items: ");
                 scanf("%d",&Q5);
                 if(data[4].qty > Q5){
-                    data[4].qty--;
+                    data[4].qty -= Q5;
                     B5 = 100 * Q5;
                 }else{
                     printf("\nCannot do this!!\n");
